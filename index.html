@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Form Design Java </title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+  <div class="show">
+    <h4 class="fname"> First Name </h4>
+    <h4 class="lname"> Sure Name </h4>
+    <h4 class="email"> email </h4>
+    <h4 class="password"> password </h4>
+    <h4 class="date"> Date </h4>
+    <h4 class="month"> month </h4>
+    <h4 class="year"> year </h4>
+    <h4 class="gender"> gender </h4>
+    <h4 class="pronoun"> pronoun </h4>
+    <h4 class="gender-optional"> gender-optional  </h4>
+
+  </div>
+ 
+  <div class="facebook">
+  <div class="logo">
+    <img src="img/facbook.png" alt="facebook img">
+  </div>
+  <div class="form">
+    <h1> Create a new account </h1>
+    <p> It's quick and easy. </p>
+    <hr>
+    <form>
+      <input type="text" id="fname" placeholder="First Name">
+      <input type="text" id="lname" placeholder="Sure  Name"> <br>
+      <input type="email" id="email" placeholder="Email Adress">
+      <input type="password" id="password" placeholder="New password">
+      <label> Date of birth </p> </label>
+      <select id="date">
+        <option value="01"> 01 </option>
+        <option value="02" selected> 02 </option>
+        <option value="03"> 03 </option>
+        <option value="04"> 04 </option>
+        <option value="05"> 05 </option>
+        <option value="06"> 06 </option>
+        <option value="07"> 07 </option>
+        <option value="08"> 08 </option>
+        <option value="09"> 09 </option>
+        <option value="10"> 10 </option>
+      </select>
+      <select id="month">
+        <option value="January"> January </option>
+        <option value="Feburay" selected> Feburay </option>
+        <option value="March "> March </option>
+        <option value="April "> April </option>
+        <option value="May "> May </option>
+        <option value="June "> June</option>
+        <option value="July"> July </option>
+        <option value="August"> August </option>
+        <option value="September"> September </option>
+        <option value="October"> Octobober </option>
+        <option value="Nobember"> Nobember </option>
+        <option value="December"> December </option>
+      </select>
+      <select id="year">
+        <option value="2000"> 2000 </option>
+        <option value="2001" selected > 2001 </option>
+        <option value="2002"> 2002 </option>
+        <option value="2003"> 2003 </option>
+        <option value="20004"> 2004 </option>
+        <option value="2005"> 2005 </option>
+        <option value="2006"> 2006 </option>
+        <option value="2007"> 2007 </option>
+        <option value="2008"> 2008 </option>
+        <option value="2009"> 2009 </option>
+        <option value="2010"> 2010 </option>
+      </select>
+
+      <span> Male <input id="gender" type="radio" value="male"  name="gender" checked /> </span> 
+      <span> Female <input id="gender" type="radio" value="male" name="gender"/> </span>
+      <span> Others  <input class="gender-3" id="gender" type="radio" value="male" name="gender"/> </span> 
+       <br>
+  
+    <select id="pronoun">
+      <option value="Select your pronoun "> Select your pronoun </option>
+      <option value="She:"Wish her a happy birthday!""> She:"Wish her a happy birthday!"  </option>
+      <option value="He:"Wish him a happy birthday!"">He:"Wish him a happy birthday!" </option>
+      <option value="They:"Wish them a happy birthday!""> They:"Wish them a happy birthday!" </option>
+    </select>
+
+    <input type="text" id="gender-optional" placeholder="Gender (optional)">
+   
+     <small>
+      By clicking Sign Up, you agree to our Terms, Data Policy> and CookiePolicy. You may receive SMS notifications from us and can opt out at any time
+     </small>
+     <input type="submit" id="submit" />  
+     <h3> Already Have an Account </h3>
+    </form>
+  </div>
+</div>
+
+
+<script src="app.js"> </script>
+</body>
+</html>
